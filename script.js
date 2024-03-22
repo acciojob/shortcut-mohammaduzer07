@@ -1,5 +1,10 @@
 function shortcut(s1, s2) {
   // your code here
+	let str = ""
+	if(s1.charAt(0) == " " || s2.charAt(0) == " ") return str
+	str +=s1.charAt(0)
+	str +=s2.charAt(0)   
+	return str
 }
 
 // Do not change the code below.
